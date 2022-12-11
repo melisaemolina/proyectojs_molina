@@ -1,0 +1,41 @@
+header{
+
+    .logo{
+        text-align: center;
+        }
+        img{
+            width: 170px;
+            border-radius: 50%;
+        }
+    nav{
+        text-align: center;
+        .menu{
+            list-style-type: none;
+            background-color: $lila;
+            padding:0;
+            width: 45%;
+            margin: 20px auto;
+            .item{
+                display: inline-block;
+                text-decoration: none;
+                position: relative;
+                font-size: 1,5rem;
+                text-align: center;
+                &:hover{
+                    background-color:$celeste;
+                }
+                a{
+                    text-decoration: none;
+                    color:$purpura;
+                    font-weight: bolder;
+                    display: inline-block;
+                    padding: 15px;
+                    &:hover{
+                        background-color:$celeste;
+                    }
+                }                   
+                 
+                }          
+            }
+        }
+}

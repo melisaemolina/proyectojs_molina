@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Jost";
+  src: url(../assets/font/Jost.ttf); }
+
+@font-face {
+  font-family: "Forum";
+  src: url(../assets/font/Forum.ttf); }
+
+body {
+  background-color: #f2b8f8;
+  font-family: "Jost"; }
+
+header .logo {
+  text-align: center; }
+
+header img {
+  width: 170px;
+  border-radius: 50%; }
+
+header nav {
+  text-align: center; }
+  header nav .menu {
+    list-style-type: none;
+    background-color: #f2b8f8;
+    padding: 0;
+    width: 45%;
+    margin: 20px auto; }
+    header nav .menu .item {
+      display: inline-block;
+      text-decoration: none;
+      position: relative;
+      font-size: 1,5rem;
+      text-align: center; }
+      header nav .menu .item:hover {
+        background-color: #92c0cc; }
+      header nav .menu .item a {
+        text-decoration: none;
+        color: #190230;
+        font-weight: bolder;
+        display: inline-block;
+        padding: 15px; }
+        header nav .menu .item a:hover {
+          background-color: #92c0cc; }
+
+main {
+  color: #190230;
+  text-align: center;
+  font-size: 1rem;
+  width: 90%;
+  padding: 15px;
+  margin: auto; }
+  main .section1 {
+    padding: 5px; }
+    main .section1 h1 {
+      font-family: "Forum";
+      font-size: 1.8rem;
+      color: #200666;
+      text-align: center;
+      padding: 15px; }
+    main .section1 .ucl {
+      text-align: center; }
+      main .section1 .ucl img {
+        border-radius: 20px;
+        text-align: center;
+        width: 300px;
+        height: 350px;
+        padding: 10px; }
+    main .section1 p {
+      font-family: "Jost";
+      font-size: 1rem;
+      color: #190230;
+      padding: 20px;
+      text-align: justify; }
+  main .section2 {
+    background-color: #dccfe9;
+    padding: 30px;
+    margin: 50px; }
+    main .section2 p {
+      text-align: justify; }
+  main .section3 {
+    background-image: url("../assets/images/uclfondo.jpg");
+    width: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    margin: 40px; }
+    main .section3 .transbox {
+      margin: 5px;
+      background-color: #efd7f0;
+      opacity: 0.6; }
+      main .section3 .transbox p {
+        margin: 5px;
+        color: #000000;
+        text-align: justify; }
+  main .section4 {
+    background-color: #dccfe9;
+    padding: 30px;
+    margin: 50px; }
+    main .section4 h1 {
+      font-family: "Forum";
+      font-size: 1.8rem;
+      color: #200666;
+      text-align: center;
+      padding: 15px; }
+    main .section4 p {
+      text-align: justify; }
+    main .section4 button {
+      text-align: center;
+      margin: 10px;
+      padding: 10px; }
+    main .section4 .row .card .card-body card-title {
+      font-family: "Forum";
+      font-size: 1.3rem;
+      color: #200666;
+      text-align: center;
+      padding: 15px; }
+    main .section4 .row .card .card-body card-text {
+      text-align: justify; }
+  main .section5 {
+    background-color: #f0ebe5;
+    width: 90%;
+    padding: 30px;
+    margin: 50px;
+    transition: all 2s; }
+    main .section5:hover {
+      background-color: #a8c0f5; }
+    main .section5 h1 {
+      font-family: "Forum";
+      font-size: 1.8rem;
+      color: #200666;
+      text-align: center;
+      padding: 15px; }
+    main .section5 p {
+      text-align: justify;
+      padding: 15px; }
+    main .section5 .accordion accordion-flush .accordion-item .accordion-header {
+      font-family: "Forum";
+      font-size: 1.5rem;
+      color: #200666;
+      text-align: center;
+      padding: 10px; }
+    main .section5 .accordion accordion-flush .accordion-item .accordion-body p {
+      font-family: "Forum";
+      font-size: 1rem;
+      color: #200666;
+      text-align: justify; }
+    main .section5 .accordion accordion-flush button {
+      text-align: center;
+      margin: 10px;
+      padding: 10px; }
+
+footer {
+  background-color: #92c0cc;
+  height: 60px; }
+  footer .logofooter {
+    text-align: center; }
+    footer .logofooter img {
+      text-align: center;
+      width: 40px;
+      height: 40px;
+      padding: 5px; }

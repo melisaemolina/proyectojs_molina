@@ -1,0 +1,21 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Jost";
+    src: url(../assets/font/Jost.ttf)
+}
+@font-face{
+    font-family:"Forum";
+    src: url(../assets/font/Forum.ttf)
+}
+
+@import "variables";
+@import "body";
+@import"header";
+@import "main";
+@import "footer";
